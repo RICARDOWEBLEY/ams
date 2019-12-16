@@ -10,7 +10,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $password = $_POST['password'];
     #$pass = md5($password.$username);
   
-    #$result = $user->getUser($username,$password);
+    $result = $user->getUser($username,$password);
     if(!$result){
         echo '
         <div class="">

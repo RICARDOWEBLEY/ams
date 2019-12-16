@@ -21,6 +21,8 @@ $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
     }
     require_once 'crud.php';
     $crud = new crud($pdo);
+    require_once 'user.php';
+    $user = new user($pdo);
 
     $crud->insertUser("Administrator", "Administrator", "admin@localhost.com", "admin", "@dministrat0r", "img/default.png");
     
