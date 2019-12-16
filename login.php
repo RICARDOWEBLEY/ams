@@ -1,7 +1,7 @@
 <?php
 
 $title = 'User Login'; 
-#require_once 'inc/header.php'; 
+require_once 'inc/header.php'; 
 require_once 'db/conn.php'; 
 
 //If data was from a form POST request or not

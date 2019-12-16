@@ -1,5 +1,5 @@
 <?php 
     #redirects to Login page
-    header('Location:login.php');
+    header('Location:mail.php');
     exit;
 ?>
