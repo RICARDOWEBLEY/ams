@@ -1,8 +1,8 @@
 <?php
 
 $title = 'User Login'; 
-#require_once 'inc/header.php'; 
-#require_once 'db/conn.php'; 
+require_once 'inc/header.php'; 
+require_once 'db/conn.php'; 
 
 //If data was from a form POST request or not
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
